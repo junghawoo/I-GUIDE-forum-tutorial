@@ -5,7 +5,8 @@ Materials for "From Dam Risk Metrics to Interactive Maps" (see `tutorial_proposa
 For the *why* behind this project (motivation, architecture, aggregation semantics,
 reproducibility model) rather than the hands-on *how*, see the conference talk deck:
 [`slides/AgingDam_REST_API_Presentation_I-GUIDE_FORUM.pdf`](slides/AgingDam_REST_API_Presentation_I-GUIDE_FORUM.pdf)
-(I-GUIDE Forum 2026).
+(I-GUIDE Forum 2026), or the accompanying paper:
+[`paper/IGUIDE_Forum_2026_AgingDam_REST_API.pdf`](paper/IGUIDE_Forum_2026_AgingDam_REST_API.pdf).
 
 ## Contents
 
@@ -15,6 +16,7 @@ reproducibility model) rather than the hands-on *how*, see the conference talk d
 - `04_trust_but_verify.ipynb` — reproducing a precomputed API count from raw geometry with `gpd.sjoin`
 - `requirements.txt` — Python dependencies
 - `slides/` — the I-GUIDE Forum 2026 conference talk deck (PDF)
+- `paper/` — the accompanying I-GUIDE Forum 2026 paper (PDF)
 
 ## API
 
