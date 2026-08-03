@@ -2,6 +2,11 @@
 
 Materials for "From Dam Risk Metrics to Interactive Maps" (see `tutorial_proposal.md`).
 
+For the *why* behind this project (motivation, architecture, aggregation semantics,
+reproducibility model) rather than the hands-on *how*, see the conference talk deck:
+[`slides/AgingDam_REST_API_Presentation_I-GUIDE_FORUM.pdf`](slides/AgingDam_REST_API_Presentation_I-GUIDE_FORUM.pdf)
+(I-GUIDE Forum 2026).
+
 ## Contents
 
 - `01_request_lifecycle.ipynb` — Python `requests` → GeoDataFrame, plus a one-liner `.explore()` map
@@ -9,6 +14,7 @@ Materials for "From Dam Risk Metrics to Interactive Maps" (see `tutorial_proposa
 - `03_interactive_mapping.ipynb` — custom multi-layer folium maps
 - `04_trust_but_verify.ipynb` — reproducing a precomputed API count from raw geometry with `gpd.sjoin`
 - `requirements.txt` — Python dependencies
+- `slides/` — the I-GUIDE Forum 2026 conference talk deck (PDF)
 
 ## API
 
